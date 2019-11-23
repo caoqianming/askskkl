@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/wc/wc-card"],{"160b":function(t,e,a){"use strict";var n=a("654f"),u=a.n(n);u.a},"3c09":function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n=u(a("2e85"));function u(t){return t&&t.__esModule?t:{default:t}}var o={components:{},data:function(){return{}},props:{isCard:{type:Boolean,default:!1},listData:{type:Array,default:[]}},methods:{toPeople:function(e){console.log("toPeople",e);var a=e.currentTarget.dataset.uid;if(a>0)t.navigateTo({url:"../people/people?uid="+a});else{var u=e.currentTarget.dataset.anonymous;1!=u&&n.default.showToast("会员ID有误")}},toQuestionDetail:function(e){var a=e.currentTarget.dataset.id;a>0?t.navigateTo({url:"../question/detail?id="+a}):n.default.showToast("id有误")},toArticleDetails:function(e){var a=e.currentTarget.dataset.id;a>0?t.navigateTo({url:"../article/detail?id="+a}):n.default.showToast("有误")}}};e.default=o}).call(this,a("543d")["default"])},"4e82":function(t,e,a){"use strict";a.r(e);var n=a("bef4"),u=a("a74e");for(var o in u)"default"!==o&&function(t){a.d(e,t,function(){return u[t]})}(o);a("160b");var r=a("2877"),i=Object(r["a"])(u["default"],n["a"],n["b"],!1,null,null,null);e["default"]=i.exports},"654f":function(t,e,a){},a74e:function(t,e,a){"use strict";a.r(e);var n=a("3c09"),u=a.n(n);for(var o in n)"default"!==o&&function(t){a.d(e,t,function(){return n[t]})}(o);e["default"]=u.a},bef4:function(t,e,a){"use strict";var n=function(){var t=this,e=t.$createElement;t._self._c},u=[];a.d(e,"a",function(){return n}),a.d(e,"b",function(){return u})}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/wc/wc-card-create-component',
+    {
+        'components/wc/wc-card-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("4e82"))
+        })
+    },
+    [['components/wc/wc-card-create-component']]
+]);                

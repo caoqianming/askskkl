@@ -1,0 +1,1 @@
+.share button{font-size:18px;background-color:#fff;border:none;padding:0;margin:0;line-height:2.5}.share input{outline:none;border:none;list-style:none}.share button:after{border:none}.commemt_input{width:100%}.commemt_input input{height:1.3rem;width:100%}

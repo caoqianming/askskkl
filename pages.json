@@ -1,0 +1,182 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/index/index",
+            "style": {
+				"enablePullDownRefresh":true,
+                "navigationBarTitleText": "首页"
+            }
+        }
+        ,{
+            "path" : "pages/column/column",
+            "style" : {
+				"enablePullDownRefresh":true,
+        		"navigationBarTitleText": "专栏"
+        	}
+        }
+		,{
+            "path" : "pages/publish/publish",
+            "style" : {
+        		"navigationBarTitleText": "发布"
+        	}
+        }
+        ,{
+            "path" : "pages/column/detail",
+            "style" : {
+        		"navigationBarTitleText": "专栏详情"
+        	}
+        }
+        ,{
+            "path" : "pages/question/detail",
+            "style" : {
+				"enablePullDownRefresh":true,
+        		"navigationBarTitleText": "问答详情"
+        	}
+        }
+        ,{
+            "path" : "pages/question/answer",
+            "style" : {
+        		"navigationBarTitleText": "回答详情"
+        	}
+        }
+        ,{
+            "path" : "pages/article/detail",
+            "style" : {
+        		"navigationBarTitleText": "文章详情"
+        	}
+        }
+        ,{
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }
+        ,{
+            "path": "pages/user/setting",
+            "style": {
+                "navigationBarTitleText": "个人资料设置"
+            }
+        }
+        ,{
+            "path": "pages/user/follows",
+            "style": {
+                "navigationBarTitleText": "我的粉丝"
+            }
+        }
+        ,{
+            "path": "pages/user/article",
+            "style": {
+                "navigationBarTitleText": "我的文章"
+            }
+        }
+        ,{
+            "path": "pages/user/question",
+            "style": {
+                "navigationBarTitleText": "我的问答"
+            }
+        }
+        ,{
+            "path" : "pages/account/login",
+            "style" : {
+				"navigationBarTitleText": "登录账号"
+			}
+        }
+		,{
+            "path" : "pages/article/article",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "文章"
+			}
+        }
+        ,{
+            "path" : "pages/topic/topic",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "话题"
+			}
+        }
+        ,{
+            "path" : "pages/topic/detail",
+            "style" : {
+				"navigationBarTitleText": "话题详情"
+			}
+        }
+        ,{
+            "path" : "pages/question/question",
+            "style" : {
+				"navigationBarTitleText": "问答"
+			}
+        }
+        ,{
+            "path" : "pages/people/people",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "个人主页"
+			}
+        }
+        ,{
+            "path" : "pages/user/notifications",
+            "style" : {
+				"navigationBarTitleText": "消息通知"
+			}
+        }		
+        ,{
+            "path" : "pages/inbox/inbox",
+            "style" : {
+				"navigationBarTitleText": "给我的私信"
+			}
+        }
+		,{
+            "path" : "pages/inbox/chat",
+            "style" : {
+				"navigationBarTitleText": "私信"
+			}
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0081ff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "发现",
+            "iconPath": "static/tabbar/home.png",
+            "selectedIconPath": "static/tabbar/home_cur.png"
+        },{
+            "pagePath": "pages/topic/topic",
+            "text": "话题",
+            "iconPath": "static/tabbar/topic.png",
+            "selectedIconPath": "static/tabbar/topic_cur.png"
+        },{
+            "pagePath": "pages/user/notifications",
+            "text": "通知",
+            "iconPath": "static/tabbar/notifications.png",
+            "selectedIconPath": "static/tabbar/notifications_cur.png"
+        },{
+            "pagePath": "pages/column/column",
+            "text": "专栏",
+            "iconPath": "static/tabbar/article.png",
+            "selectedIconPath": "static/tabbar/article_cur.png"
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/tabbar/user.png",
+            "selectedIconPath": "static/tabbar/user_cur.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0081ff",
+        "backgroundColor": "#fbf9fe"
+    },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

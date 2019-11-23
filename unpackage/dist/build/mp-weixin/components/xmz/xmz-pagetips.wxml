@@ -1,0 +1,1 @@
+<view><view class="margin-top padding-xs flex align-center"><view class="flex-sub text-center"><view class="text-xsl"><text class="{{[iconClass]}}" style="{{(iconStyle)}}"></text></view><view class="{{[textClass]}}" style="{{(textStyle)}}">{{tipsText}}</view></view></view><view><slot name="button"></slot></view></view>

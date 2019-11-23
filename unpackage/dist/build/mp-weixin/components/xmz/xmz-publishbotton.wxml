@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['toClick',['$0'],['btnPath']]]]]}}" class="{{['publish_botton right_bottom',bgClass]}}" bindtap="__e"><view class="{{['text-xxl',btnIcon]}}"></view><view class="text-sm">{{btnText}}</view></view></view>

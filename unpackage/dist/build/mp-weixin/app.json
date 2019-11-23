@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/column/column",
+    "pages/publish/publish",
+    "pages/column/detail",
+    "pages/question/detail",
+    "pages/question/answer",
+    "pages/article/detail",
+    "pages/user/user",
+    "pages/user/setting",
+    "pages/user/follows",
+    "pages/user/article",
+    "pages/user/question",
+    "pages/account/login",
+    "pages/article/article",
+    "pages/topic/topic",
+    "pages/topic/detail",
+    "pages/question/question",
+    "pages/people/people",
+    "pages/user/notifications",
+    "pages/inbox/inbox",
+    "pages/inbox/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0081ff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0081ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_cur.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "话题",
+        "iconPath": "static/tabbar/topic.png",
+        "selectedIconPath": "static/tabbar/topic_cur.png"
+      },
+      {
+        "pagePath": "pages/user/notifications",
+        "text": "通知",
+        "iconPath": "static/tabbar/notifications.png",
+        "selectedIconPath": "static/tabbar/notifications_cur.png"
+      },
+      {
+        "pagePath": "pages/column/column",
+        "text": "专栏",
+        "iconPath": "static/tabbar/article.png",
+        "selectedIconPath": "static/tabbar/article_cur.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user_cur.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "page-tips": "/components/xmz/xmz-pagetips",
+    "wc-card": "/components/wc/wc-card",
+    "wc-article": "/components/wc/wc-article",
+    "u-parse": "/components/gaoyia-parse/parse"
+  },
+  "sitemapLocation": "sitemap31.json"
+}

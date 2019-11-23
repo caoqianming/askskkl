@@ -1,0 +1,1 @@
+.publish_botton{overflow:hidden;z-index:9999;position:fixed;text-align:center;width:100rpx;height:100rpx;border-radius:50%;padding:20rpx 5px}.publish_botton.right_top{right:10px;top:10px}.publish_botton.right_bottom{right:10px;bottom:10px}.publish_botton.center_{right:45%;top:50%}.publish_botton.left_top{left:10px;top:10px}.publish_botton.left_bottom{left:10px;bottom:10px}

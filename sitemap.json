@@ -1,0 +1,78 @@
+{
+  "rules":[{
+    "action": "allow",
+    "page": "pages/article/detail",
+    "params": ["id"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/article/detail"
+  },{
+    "action": "allow",
+    "page": "pages/question/detail",
+    "params": ["id"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/question/detail"
+  },{
+    "action": "allow",
+    "page": "pages/question/answer",
+    "params": ["answer_id","question_id"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/question/answer"
+  },{
+    "action": "allow",
+    "page": "pages/topic/detail",
+    "params": ["topic_id"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/topic/detail"
+  },{
+    "action": "allow",
+    "page": "pages/column/detail",
+    "params": ["column_id"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/column/detail"
+  },{
+    "action": "allow",
+    "page": "pages/people/people",
+    "params": ["uid"],
+    "matching": "inclusive"
+  }, {
+    "action": "disallow",
+    "page": "pages/people/people"
+  }, {
+    "action": "disallow",
+    "page": "pages/publish/publish"
+  }, {
+    "action": "disallow",
+    "page": "pages/account/login"
+  }, {
+    "action": "disallow",
+    "page": "pages/user/setting"
+  }, {
+    "action": "disallow",
+    "page": "pages/user/article"
+  }, {
+    "action": "disallow",
+    "page": "pages/user/follows"
+  }, {
+    "action": "disallow",
+    "page": "pages/user/question"
+  }, {
+    "action": "disallow",
+    "page": "pages/user/notifications"
+  }, {
+    "action": "disallow",
+    "page": "pages/inbox/inbox"
+  }, {
+    "action": "disallow",
+    "page": "pages/inbox/chat"
+  }]
+}
